@@ -1,0 +1,14 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Lab1",
+            "includePath": [
+                "src"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/riscv-gnu-toolchain-nightly-2022.11.23/bin/riscv64-unknown-elf-gcc",
+            "cStandard": "c17"
+        }
+    ]
+}

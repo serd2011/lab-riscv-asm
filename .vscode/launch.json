@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "venus",
+            "request": "launch",
+            "name": "Launch Venus Simulator",
+            "program": "${workspaceFolder}/src/asm/Lab1.S",
+            "stopOnEntry": true
+        }
+    ]
+}
