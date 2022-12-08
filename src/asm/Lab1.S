@@ -10,8 +10,6 @@ matrix:
 .word 45,  9, 63, 53, 15, 49
 .word 63, 81, 88, 46, 25, 76
 .word 68,  7, 59, 86, 24, 76
-result:
-.word 0
 
 .text
 
