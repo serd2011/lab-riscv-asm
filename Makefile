@@ -7,6 +7,7 @@ ABI = ilp32
 C_SOURCES =  \
 src/c/Lab1.c \
 
+O_LEVEL = 3
 
 # Compiler
 
@@ -36,7 +37,7 @@ $(BUILD_DIR)/$(TARGET).elf: $(OBJECTS)
 	$(CC) $(ARCHITECTURE_FLAGS) $(OBJECTS) -o $@
 
 $(BUILD_DIR)/%.o: %.c | $(BUILD_DIR)
-	$(CC) -c $(ARCHITECTURE_FLAGS) $< -o $@
+	$(CC) -c -O$(O_LEVEL) $(ARCHITECTURE_FLAGS) $< -o $@
 
 $(BUILD_DIR):
 	mkdir $@
